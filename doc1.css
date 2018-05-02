@@ -1,0 +1,73 @@
+h1 {
+  text-align: center;
+}
+
+body {
+    background-color: rgb(238,238,238);
+    font-family: 'Arvo', serif;
+
+}
+
+.boxes {
+  position: relative;
+  border:2px solid blue;
+  margin:0 auto;
+  width: 30%;
+  height: 498px;
+
+
+
+}
+
+.corps {
+position: absolute; top:0px; left:0px;
+border:1px solid red;
+background-image: url(corps.png);
+background-repeat: no-repeat;
+width: 149px;
+height: 498px;
+}
+
+.circle {
+background: black;
+opacity:0.8;
+border-radius:50%;
+width:40px;
+height:40px;
+border:2px solid black;
+position: absolute;
+}
+
+#shoulder{
+top:85px; left:6px;
+}
+
+#wrist{
+  top:220px; left:0px;
+}
+
+#arm{
+top:180px; left:105px;
+}
+
+#knee{
+top:320px; left:70px;
+}
+
+#ankle{
+top:430px; left:70px;
+}
+
+#hips{
+top:240px; left:80px;
+}
+
+#text {
+top: -2px; left: 149px;
+border:2px solid black;
+font-size: 18px;
+position: absolute;
+height: 498px;
+width:170%;
+text-align: center;
+}
