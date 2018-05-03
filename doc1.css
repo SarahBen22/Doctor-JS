@@ -49,7 +49,7 @@ top:180px; left:105px;
 }
 
 #knee{
-top:320px; left:70px;
+top:325px; left:30px;
 }
 
 #ankle{
@@ -67,5 +67,5 @@ font-size: 18px;
 position: absolute;
 height: 498px;
 width:170%;
-text-align: center;
+text-align: left;
 }
